@@ -24,7 +24,7 @@ export class MapComponent implements OnInit, AfterViewInit, OnDestroy {
 
     this.map = new Map({
       container: this.mapContainer.nativeElement,
-      style: `https://api.maptiler.com/maps/streets-v2/style.json?key=l9gANY9FtQqwITBcgpHn`,
+      style: `https://api.maptiler.com/maps/streets-v2/style.json?key=KEY`,
       center: [initialState.lng, initialState.lat],
       zoom: initialState.zoom
     });
